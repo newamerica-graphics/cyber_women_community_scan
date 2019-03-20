@@ -13,7 +13,7 @@ const settings = {
   }
 };
 
-let endpoint_url = `http://na-data-projects.s3.amazonaws.com/data/cyber/women_community_scan.json`;
+let endpoint_url = `https://na-data-projects.s3.amazonaws.com/data/cyber/women_community_scan.json`;
 
 fetch(endpoint_url)
   .then(response => response.json())
